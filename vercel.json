@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "nodeVersion": "18.x",
+  "env": {
+    "NEXT_PUBLIC_API_URL": "@agri_api_url",
+    "NEXT_PUBLIC_API_TIMEOUT": "30000"
+  }
+}
